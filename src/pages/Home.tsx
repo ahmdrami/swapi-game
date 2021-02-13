@@ -1,5 +1,5 @@
 import randomColor from 'randomcolor'
-import { Flex } from 'theme-ui'
+import { Flex, Heading } from 'theme-ui'
 
 import { Card, Layout } from '../components'
 
@@ -25,6 +25,9 @@ export const Home = () => {
           <Card {...profile} key={profile.id} />
         ))}
       </Flex>
+      <Heading as="h1" variant="styles.h1" sx={{ mt: 3 }}>
+        Choose your path{' '}
+      </Heading>
     </Layout>
   )
 }
