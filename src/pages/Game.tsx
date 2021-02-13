@@ -27,7 +27,6 @@ export const Game = () => {
     2,
     totalCount
   )
-
   return (
     <Layout>
       {loading ? (
@@ -67,8 +66,7 @@ export const Game = () => {
               sx={{
                 mt: 4,
                 '> button:not(:last-child)': {
-                  mr: [0, 2],
-                  mt: [2, 0],
+                  mr: 2,
                 },
               }}
             >

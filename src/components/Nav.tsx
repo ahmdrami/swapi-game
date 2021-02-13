@@ -15,10 +15,10 @@ export const Nav: FunctionComponent = (): JSX.Element => {
         width: '100%',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        px: 4,
+        px: [2, 4],
         height: 75,
         '> button:not(:last-child)': {
-          mr: 2,
+          mr: [1, 2],
         },
       }}
     >

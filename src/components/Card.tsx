@@ -20,23 +20,22 @@ export const Card: FunctionComponent<CardModel> = ({
     <Flex
       onClick={handleClick}
       sx={{
-        height: 350,
+        height: [250, 350],
         cursor: url ? 'pointer' : 'initial',
         pointerEvents: url ? 'auto' : 'none',
         bg: color,
-        width: 250,
+        width: [150, 250],
         p: 2,
         borderRadius: '5px',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
         '&:not(:last-child)': {
-          mr: [0, 4],
-          mt: [4, 0],
+          mr: [2,4],
         },
         '> * ': {
           textAlign: 'center',
-          color: 'black'
+          color: 'black',
         },
       }}
     >

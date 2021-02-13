@@ -66,7 +66,7 @@ const theme = {
       lineHeight: 'heading',
       m: 0,
       mb: 1,
-      fontSize: 6,
+      fontSize: [5, 6],
       mt: 2,
     },
     h2: {
@@ -75,7 +75,7 @@ const theme = {
       lineHeight: 'heading',
       m: 0,
       mb: 1,
-      fontSize: 5,
+      fontSize: [4, 5],
       mt: 2,
     },
     h3: {
@@ -84,7 +84,7 @@ const theme = {
       lineHeight: 'heading',
       m: 0,
       mb: 1,
-      fontSize: 4,
+      fontSize: [3, 4],
       mt: 3,
     },
     h4: {
@@ -93,7 +93,7 @@ const theme = {
       lineHeight: 'heading',
       m: 0,
       mb: 1,
-      fontSize: 3,
+      fontSize: [2, 3],
     },
     h5: {
       fontFamily: 'heading',
