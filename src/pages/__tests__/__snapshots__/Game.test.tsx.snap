@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game page component should render the fragment 1`] = `
+<DocumentFragment>
+  <div
+    class="css-16zix2c"
+  >
+    <svg
+      class="css-1pf5xd"
+      fill="none"
+      height="48"
+      role="img"
+      stroke="currentcolor"
+      stroke-width="4"
+      viewBox="0 0 32 32"
+      width="48"
+    >
+      <title>
+        Loading...
+      </title>
+      <circle
+        cx="16"
+        cy="16"
+        opacity="0.125"
+        r="12"
+      />
+      <circle
+        class="css-wpcq6n"
+        cx="16"
+        cy="16"
+        r="12"
+        stroke-dasharray="75.39822368615503"
+        stroke-dashoffset="56.548667764616276"
+      />
+    </svg>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should render the fragment 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1cslx62"
+  >
+    <h2
+      class="css-19guh4r"
+    >
+      Skywalker
+    </h2>
+    <h3
+      class="css-1wf7gym"
+      data-testid="strength"
+    >
+      Strength: 2
+    </h3>
+  </div>
+</DocumentFragment>
+`;
